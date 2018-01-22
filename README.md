@@ -1,1 +1,0 @@
-# ThomasSeaman.github.io
