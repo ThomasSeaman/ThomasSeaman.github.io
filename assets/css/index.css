@@ -1,0 +1,146 @@
+body{
+    background-color:lightgray;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    margin:auto;
+}
+
+.header{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:200px;
+    height:100px;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-left: 286px;
+}
+
+.navbox {
+    background-color:#ffffff;
+    text-align:center;
+    margin:auto;
+    width:100%;
+    float:left;
+}
+
+nav{
+    float:right;
+    margin-top:-60px;
+    margin-right:164px;
+}
+
+
+.articlebox{
+    background-color:#ffffff;
+    width:650px;
+    float:left;
+    text-align: center;
+    margin-left:286px;
+    margin-top:30px;
+    margin-bottom:33px;
+}
+
+hr{
+    width:583px;
+    color:gray;
+}
+
+.figureaboutme{
+    background-color:#ffffff;
+    text-align:left;
+}
+
+.p1{
+    width: 379px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 10px;
+    font:#777777;
+}
+
+.p2{
+    float:left;
+    font:#777777;
+}
+
+.headshotimage{
+    clear: both;
+    float:left;
+    margin-left:33px;
+    margin-top:20px;
+}
+.articleaboutme{
+    color:#4aaaa5;
+    clear: both;
+    float:left;
+    width:476px;
+    padding:33px;
+    text-align:left;
+    font-size:25px;
+}
+
+.connectbox{
+    background-color:#ffffff;
+    font-size:17px;
+    width:270px;
+    height:155px;
+    text-align: center;
+    margin-right:114px;
+    margin-top:30px;
+    float:right;
+}
+
+#githubimage{
+    float:left;
+    width: 101px;
+    padding-top: -7px;
+}
+
+#linkedinimage{
+    float:left;
+    width: 70px;
+    padding-top: -7px;
+}
+
+#stackoverflowimage{
+    float:left;
+    width: 95px;
+    padding-top: -7px;
+}
+
+.aside {
+    color:#4aaaa5;
+    clear:both;
+    line-height: 59px;
+    vertical-align: middle;
+}
+
+
+
+
+
+.aside{
+    background-color:#ffffff;
+}
+
+
+
+
+.contactbox{
+    background-color:#ffffff;
+}
+
+.portfoliobox{
+    background-color:#ffffff;
+}
+
+footer{
+    background-color:#666666;
+    color:#ffffff;
+    padding:40px;
+    font-size:10px;
+    text-align: center;
+    margin:auto;
+    clear: both;
+    margin-top:10px;
+}

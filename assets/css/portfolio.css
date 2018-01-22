@@ -1,0 +1,169 @@
+body{
+    background-color:lightgray;
+    font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
+    margin:auto;
+}
+
+.header{
+    background-color:#4aaaa5;
+    color:#ffffff;
+    width:200px;
+    height:100px;
+    line-height: 100px;
+    vertical-align: middle;
+    margin-left: 286px;
+}
+
+.navbox {
+    background-color:#ffffff;
+    text-align:center;
+    margin:auto;
+    width:100%;
+    float:left;
+}
+
+nav{
+    float:right;
+    margin-top:-60px;
+    margin-right:164px;
+}
+
+
+.portfoliobox{
+    background-color:#ffffff;
+    width:650px;
+    float:left;
+    text-align: center;
+    margin-left:286px;
+    margin-top:30px;
+    margin-bottom:33px;
+    height:757px;
+}
+
+.articleportfolio{
+    color: #4aaaa5;
+    clear: both;
+    float: left;
+    width: 650px;
+    padding: 33px;
+    text-align: left;
+    font-size: 25px;
+}
+
+hr{
+    width:593px;
+    color:gray;
+}
+
+.businessimage{
+    float:left;
+    padding-top:37px;
+    padding-right:45px;
+    padding-left:28px;
+}
+
+#example1{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}
+        
+.cityimage{
+    float:left;
+    padding-top:37px;
+}
+       
+#example2{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}
+        
+   
+.motocrossimage{
+    float:left;
+    padding-top:37px;
+    padding-right:45px;
+    padding-left:28px;
+}
+      
+#example3{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}     
+       
+.natureimage{
+    float:left;
+    padding-top:37px;
+}
+      
+#example4{
+    background-color: #4aaaaf;
+    color: #ffffff;
+    font-size: 18px;
+    margin-top: -77px;
+    padding: 20px;
+    z-index: 2;
+    position: relative;
+}
+
+.connectbox{
+    background-color:#ffffff;
+    font-size:17px;
+    width:270px;
+    height:155px;
+    text-align: center;
+    margin-right:114px;
+    margin-top:30px;
+    float:right;
+}
+
+#githubimage{
+    float:left;
+    width: 101px;
+    padding-top: -7px;
+}
+
+#linkedinimage{
+    float:left;
+    width: 70px;
+    padding-top: -7px;
+}
+
+#stackoverflowimage{
+    float:left;
+    width: 95px;
+    padding-top: -7px;
+}
+
+.aside {
+    color:#4aaaa5;
+    clear:both;
+    line-height: 59px;
+    vertical-align: middle;
+}
+
+footer{
+    background-color:#666666;
+    color:#ffffff;
+    padding:40px;
+    font-size:10px;
+    text-align: center;
+    margin:auto;
+    clear: both;
+    margin-top:10px;
+}
