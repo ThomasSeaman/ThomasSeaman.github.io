@@ -94,17 +94,18 @@ footer{
     
 }
 
-#aerservimage,#tenimage{
+#inmobiimage,#aerservimage{
     width:322px;
     height:107px;
     opacity:.5;
 }
 
-#breakingbadimage{
-    width:322px;
-    height:107px;
-    opacity:.5;
-    margin-left: 83px;
+#tenimage {
+    width: 174px;
+    height: 128px;
+    margin-left: 70px;
+    margin-top: -7px;
+    opacity: .5;
 }
 
 #jobtitle{
