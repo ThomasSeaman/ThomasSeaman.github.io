@@ -1,8 +1,12 @@
 body{
-    color:darkgray;
+    color:black;
     font-family: 'Barlow', sans-serif;
     text-align: center;
     }
+
+.typeform{
+    align-content: center;
+}
 
 #beachimage{
     width:100%
@@ -19,7 +23,7 @@ body{
     }
 
 #aboutlink,#portfoliolink,#contactlink{
-    color:darkgray;
+    color:black;
     font-weight:900;
     font-size:15px;
 }
@@ -112,7 +116,7 @@ footer{
     font-size: 28px;
     height:100px;
     padding-top:10px;
-    color:darkgray;
+    color:black;
 }
 
 #contactname,#contactemail,#contactmessage{
@@ -121,9 +125,10 @@ footer{
 
 #send{
     font-size: 25px;
-    color:darkgray;
+    color:black;
     border-radius: 250px;
-    border-color: darkgray;
+    border-color: black;
 }
+
 
 
