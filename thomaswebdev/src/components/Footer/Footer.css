@@ -1,0 +1,22 @@
+footer{
+    opacity:0.20;
+    margin-top:17px;
+}
+
+.githubimage{
+    width:35px;
+    height:35px;
+    margin:7px;
+}
+
+.linkedinimage{
+    width:35px;
+    height:35px;
+    margin:7px;
+}
+
+.stackoverflowimage{
+    width:35px;
+    height:35px;
+    margin:7px;
+}

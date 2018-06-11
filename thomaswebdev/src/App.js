@@ -1,16 +1,24 @@
 import React, { Component } from 'react';
-import About from './components/About/About'
+import Banner from './components/Banner/Banner'
+import Title from './components/Title/Title'
+import Footer from './components/Footer/Footer'
+import Container from './components/Container/Container'
+import { ReactTypeformEmbed } from 'react-typeform-embed';
 import Contact from './components/Contact/Contact'
-import Portfolio from './components/Portfolio/Portfolio'
 
 class App extends Component {
+
+contactClickHandler = (event) => {
+  console.log(event)
+}
+
   render() {
     return (
-      <div className="row">
-        <About></About>
-        <Contact></Contact>
-        <Portfolio></Portfolio>
 
+      <div>
+        <Banner />
+        <Title />
+        <Container />
       </div>
     );
   }
