@@ -16,7 +16,7 @@ const Contact = props => (
 <div className="col-lg-12">
 
 
-<button onClick={this.contactClickHandler}>Contact Me</button>
+{/* <button onClick={contactClickHandler}>Contact Me</button> */}
  
 </div>
 </div>

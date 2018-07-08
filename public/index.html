@@ -1,104 +1,65 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="assets/style.css">
-    <link href="https://fonts.googleapis.com/css?family=Barlow:100" rel="stylesheet">
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Welcome to Firebase Hosting</title>
 
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-120633508-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/5.0.4/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/5.0.4/firebase-auth.js"></script>
+    <script defer src="/__/firebase/5.0.4/firebase-database.js"></script>
+    <script defer src="/__/firebase/5.0.4/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/5.0.4/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
 
-  gtag('config', 'UA-120633508-1');
-</script>
-    
-    <title>Document</title>
+    <style media="screen">
+      body { background: #ECEFF1; color: rgba(0,0,0,0.87); font-family: Roboto, Helvetica, Arial, sans-serif; margin: 0; padding: 0; }
+      #message { background: white; max-width: 360px; margin: 100px auto 16px; padding: 32px 24px; border-radius: 3px; }
+      #message h2 { color: #ffa100; font-weight: bold; font-size: 16px; margin: 0 0 8px; }
+      #message h1 { font-size: 22px; font-weight: 300; color: rgba(0,0,0,0.6); margin: 0 0 16px;}
+      #message p { line-height: 140%; margin: 16px 0 24px; font-size: 14px; }
+      #message a { display: block; text-align: center; background: #039be5; text-transform: uppercase; text-decoration: none; color: white; padding: 16px; border-radius: 4px; }
+      #message, #message a { box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24); }
+      #load { color: rgba(0,0,0,0.4); text-align: center; font-size: 13px; }
+      @media (max-width: 600px) {
+        body, #message { margin-top: 0; background: white; box-shadow: none; }
+        body { border-top: 16px solid #ffa100; }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="message">
+      <h2>Welcome</h2>
+      <h1>Firebase Hosting Setup Complete</h1>
+      <p>You're seeing this because you've successfully setup Firebase Hosting. Now it's time to go build something extraordinary!</p>
+      <a target="_blank" href="https://firebase.google.com/docs/hosting/">Open Hosting Documentation</a>
+    </div>
+    <p id="load">Firebase SDK Loading&hellip;</p>
 
-</head>
-<body>
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
 
- <div class="container">
-        
-        <div class="row">
-            
-            <div class="col-lg-12">
-                <section>  
-                <img src="assets/images/beachimage.jpg" alt="Beach Image" id="beachimage">
-                    <p id="name">THOMAS SEAMAN</p>
-                    <p id="title">WEB DEVELOPER&nbsp;&nbsp;&nbsp;&nbsp; |&nbsp;&nbsp;&nbsp;&nbsp; DANA POINT, CA</p>
-                </section>  
-                <hr>
-            </div>
-            
-        </div>
-    
-        <div class="row">
-
-            <div class="col-lg-4">
-                <a href="index.html" id="aboutlink">ABOUT</a>
-            </div>
-
-            <div class="col-lg-4">
-                <a href="portfolio.html" id="portfoliolink">PORTFOLIO</a>
-            </div>
-
-            <div class="col-lg-4">
-                <a href="contact.html" id="contactlink">CONTACT</a>
-            </div>
-            
-        </div>
-
-        <hr>
-          
-
-        <div class="row">
-            <div class="col-lg-12">
-                <p class="circleheadshot">
-                    <img src="assets/images/circleheadshot.png" alt="Head Shot" id="circleheadshotimage">
-                </p>
-            </div>
-            
-        
-        </div>
-
-        <div class="row">
-                <div class="col-lg-12">
-                        <p id="aboutme">ABOUT ME</p>
-                    </div>
-            
-            
-        </div>
-
-        <div class="row">
-        
-                    
-            <div class="col-lg-12">
-                <p id="paragraph1">My name is Thomas Seaman and I am from San Clemente, CA. I am the Director of Advertising Operations at Inmobi and work out of Irvine, CA. I enjoy spending my free time in the ocean, in the mountains, or out on the local trails. I recently got married in La Jolla, CA and enjoyed my honeymoon in Kauai, HI. I am attending UCI's Coding Bootcamp to increase my coding capabilities and open up my career opportunities. I am interested in bckend developemnt and creating solutions for companies to work more effeciantly between departments.</p>
-            </div>
-                
-        </div>
-        
-</div>
-<footer class="footer">
-        
-
-        <a href="https://github.com/ThomasSeaman" target="_blank">
-            <img src="assets/images/githubimage.png" alt="githubimage" class="githubimage">
-        </a>
-            
-        <a href="https://www.linkedin.com/in/thomas-seaman-274a3850/" target="_blank">
-            <img src="assets/images/linkedinimage.png" alt="linkedinimage" class="linkedinimage">
-        </a>
-            
-        <a href="https://stackoverflow.com/users/9157304/tseaman" target="_blank">
-            <img src="assets/images/stackoverflowimage.png" alt="stackoverflowimage" class="stackoverflowimage">
-        </a>
-</footer>
-</body>
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
 </html>
